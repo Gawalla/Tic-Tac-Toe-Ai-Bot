@@ -1,4 +1,4 @@
-(function() { var script = document.createElement('script'); script.src = "https://cdn.jsdelivr.net/npm/eruda"; document.body.append(script); script.onload = function() { eruda.init(); } })();
+// let's start coding for tic tac toe
 let mode_cont=document.getElementById('mode-cont');
 mode_cont.style.display='none';
 let container = document.getElementById('container');
