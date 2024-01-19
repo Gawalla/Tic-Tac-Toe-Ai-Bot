@@ -17,18 +17,20 @@ html {
 }
 
 body {
-  background-image: url("https://i.ibb.co/DYpDRTf/Untitled-design-3.png");
-  background-position: center;
+  background-image: url("home.png");
+
   justify-content: center;
   align-items: center;
-  display: grid;
-  
-  /* set the font family from file font.zip */
-  
-  
-  object-fit: cover;
+
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
+  backgrond-repeat: no-repeat;
+  object-fit: cover; 
+  width: 100%;
+  height: auto;
+  
+  top: 0;
+  left: 0;
 }
 
 #vs-img {
@@ -201,12 +203,14 @@ height: 100%;
 .two-btn {
   justify-content: center;
   align-items: center;
+  text-align: center; 
   display: flex;
 }
 
 .two-btn span {
-  margin: 2vh 10px;
-  height: 10vh;
+  margin: 5vh 1vh;
+  height: 9vh;
+  padding: 1vh;
   display: flex;
   justify-content: center;
   border-radius: 15%;
@@ -225,23 +229,11 @@ height: 100%;
 
 
 }
-/* .history-btn{
-  margin: 2vh 10px;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  border-radius: 15%;
-  width: 10vh;
-  box-shadow: 0 0 10px #ff5900, 0 0 20px #ff5900;
 
-  align-items: center;
-  background-color: #ff5900;
-} */
 .chance {
   display:inline-block;
   font-size: 3rem;
   margin:auto 5vh;
-  
   font-family: 'customFont';
   
 
@@ -249,8 +241,10 @@ height: 100%;
 }
 
 #chancebox {
-  margin: auto auto;
- margin-top: 20vh;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20vh;
   font-family: 'customFont';
   display: space-between;
   justify-content:center;
